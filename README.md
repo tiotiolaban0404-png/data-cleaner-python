@@ -2,12 +2,14 @@
 
 Script untuk membersihkan file CSV atau Excel `.xlsx` secara aman. File sumber tidak diubah; hasil disimpan ke file baru dengan akhiran `_cleaned`.
 
+![Demo program Data Cleaner](demo.png)
+
 ## Yang dibersihkan
 
 - Nama kolom dirapikan menjadi `snake_case`.
 - Spasi di awal/akhir nilai teks dihapus.
 - Baris yang seluruh nilainya kosong dibuang.
-- Baris duplikat persis dibuang.
+- Baris yang menjadi duplikat setelah spasi tepi dihapus dibuang.
 - File sumber tidak ditimpa. File hasil yang sudah ada juga tidak ditimpa.
 - Untuk Excel, script membaca worksheet pertama saja.
 
