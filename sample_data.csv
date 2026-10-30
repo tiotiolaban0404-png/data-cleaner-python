@@ -1,0 +1,5 @@
+Customer Name,Email Address,Orders
+ Alice , alice@example.com ,2
+Alice,alice@example.com,2
+"  ",," "
+Budi,budi@example.com,1

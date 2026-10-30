@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.env
+.env
+client_secret*.json
+google_token.json
+gmail-app-password*.dpapi
+*_cleaned.*
+!sample_data_cleaned.csv
+!sample_data_cleaned.xlsx
